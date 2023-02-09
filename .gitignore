@@ -1,0 +1,8 @@
+# Hide .env file
+.env
+
+# Hide node_modules and pnpm-lock.yaml
+
+node_modules/
+package-lock.json
+pnpm-lock.yaml

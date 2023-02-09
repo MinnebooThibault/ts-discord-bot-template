@@ -1,0 +1,23 @@
+{
+  "name": "typescript-bot-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node -r dotenv/config src/main.ts",
+    "format": "pnpm rome format src/ --write",
+    "check": "pnpm rome check src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "mongoose": "^6.9.1",
+    "rome": "^11.0.0"
+  }
+}

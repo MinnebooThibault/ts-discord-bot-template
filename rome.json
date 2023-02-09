@@ -1,0 +1,29 @@
+{
+    "linter": {
+        "rules": {
+            "recommended": true,
+            "correctness": {
+                "noUndeclaredVariables": "warn",
+                "noUnusedVariables": "warn",
+                "noConstAssign": "warn"
+            },
+            "nursery": {
+                "noConstructorReturn": "error",
+                "useCamelCase": "error",
+                "noEmptyInterface": "error"
+            }
+        }
+    },
+    "formatter": {
+        "indentSize": 4,
+        "formatWithErrors": false,
+        "indentStyle": "tab"
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "double",
+            "semicolons": "always",
+            "quoteProperties": "asNeeded"
+        }
+    }
+}
